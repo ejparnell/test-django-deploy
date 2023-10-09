@@ -27,7 +27,7 @@ SECRET_KEY = config('SECERT_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://test-django-deploy.onrender.com']
 
 
 # Application definition
